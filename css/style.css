@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#3c006b;
+    color: rgb(197, 62, 62);
+    padding: 3rem;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    
+}
+header h1{
+    padding-left: 2rem;
+}
+
+header >ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+header > ul > div{ 
+    position: relative;
+}
+
+.hiring{
+    position: absolute;
+    top: 2.2rem;
+    font-size: 0.8rem;
+    width: 6rem;
+    background-color: #755253;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.9rem;
+    border: 1px solid #f5e83b;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem;
+}
+
+ main > img{
+    width: 50rem;
+    position: relative;
+    top: 3rem;
+    left: 10rem;
+
+}
+ main h1{
+    font-size: 5rem;
+    line-height: 6rem;
+    color: white;
+    font-family:  Poppins,sans-serif;
+    padding-left: 2rem;
+ }
+
+ main button{
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    width: 8.9rem;
+    border-color: white;
+    padding: 0.2rem;
+
+ }
+
+ div h3{
+    display: flex;
+    justify-content: center;
+ }
+
+ .adiv > div > h1{
+    display: flex;
+    justify-content: center;
+    color: #dec2eb;
+    font-size: medium;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    top: 1rem;
+ }
+
+ .bdiv > div {
+    color: white;
+ }
+
+ .bdiv > div > h1{
+    color: white;
+    font-size: large;
+    font-family: Poppins,sans-serif;
+    display: flex;
+    justify-content: center;
+ }
+
+ .bdiv{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 2rem;
+ }
+
+ main > img{
+    position: relative;
+    left: 6rem;
+ }
+
+ .abdiv{
+    border: 5px solid #6f5242;
+    border-radius: 2rem;
+    width: 60rem;
+    position: relative;
+    left: 12rem;
+ }
+
+ .me > h1{
+    position: relative;
+    font-family: Poppins,sans-serif;
+    bottom: 3.5rem;
+ }
+
+ .me > h5{
+    position: relative;
+    bottom: 3.5rem;
+ }
+ 
+ .hum > h1{
+    font-family: Poppins,sans-serif;
+    font-size: 5rem; 
+ }
+
+ .hum > h5{
+    font-family: Poppins,sans-serif;
+    font-size: small  
+ }
+
+ .bdiv > div:nth-of-type(2) > h5{
+   color: white;
+   font-family: Poppins,sans-serif;
+   position: relative;
+   left: 2rem;
+ }
+
+ .bdiv > div:nth-of-type(1) > h5{
+    color: white;
+    font-family: Poppins,sans-serif;
+    gap: 1rem; 
+ }
+
+ .bdiv > div:nth-of-type(3) > h5{
+    color: white;
+ }
+
+ .we > div > h1{
+    color:#dec2eb;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family:Poppins,sans-serif ;
+    gap: 3rem;
+    position: relative;
+    top: 4rem;
+ }
+
+ .she > div:nth-of-type(1){
+    width: 27rem;
+    height: 15rem;
+    background-color: #c82187;
+    border-radius: 1.2rem;
+ }
+
+ .she > div:nth-of-type(2){
+    width: 27rem;
+    height: 15rem;
+    background-color: #5a188d;
+    border-radius: 1.2rem;
+ }
+
+.she{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    top: 6rem;
+}
+
+.you{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    top: 9rem;
+}
+ 
+.you > div:nth-of-type(1){
+    width: 27rem;
+    height: 13rem;
+    background-color: #5a188d;
+    border-radius: 1.2rem;
+ }
+
+ .you > div:nth-of-type(2){
+    width: 27rem;
+    height: 13rem;
+    background-color: #c82187;
+    border-radius: 1.2rem;
+ } 
+ 
+.why >div{
+    width: 27rem;
+    height: 13rem;
+    background-color: #c82187;
+    border-radius: 1.2rem;
+}
+
+.why{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12rem;
+    right: 16rem;
+}
+
+.she>div:nth-of-type(1)>h1{
+    color: #ffccd9;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    left: 1.5rem;
+    top: 1rem;
+}
+
+.she>div:nth-of-type(1)>p{
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 15px;
+    font-size: 1.5rem;
+}
+
+.she>div:nth-of-type(2)>h1{
+    color: #ffccd9;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    left: 1.5rem;
+    top: 1rem;
+}
+
+.she>div:nth-of-type(2)>p{
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 15px;
+    font-size: 1.5rem;
+}
+
+.you>div:nth-of-type(1)>h1{
+    position: relative;
+    left: 1.5rem;
+    top: 1rem;
+    color: #ffccd9;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;  
+}
+
+.you>div:nth-of-type(1)>p{
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 15px;
+    font-size: 1.5rem;
+}
+
+.you>div:nth-of-type(2)>h1{
+    position: relative;
+    left: 1.5rem;
+    top: 1rem;
+    color: #ffccd9;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;  
+}
+
+.you>div:nth-of-type(2)>p{
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 15px;
+    font-size: 1.5rem;
+}
+
+.why>div>h1{
+    position: relative;
+    left: 1.5rem;
+    top: 1rem;
+    color: #ffccd9;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+
+}
+
+.why>div>p{
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 15px;
+    font-size: 1.5rem;
+}
+
+.we  p{
+    margin-top: 3rem;
+}
+
+footer{
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer > ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    gap: 3rem;
+}
+footer > div{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer  div > h1{
+    color:#c82187 ;
+
+}
+
+.footer-menu-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    grid-column-gap: 4rem;
+    font-size: 1.3rem;
+    grid-row-gap: 0.5rem;
+}
+
+footer >div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
